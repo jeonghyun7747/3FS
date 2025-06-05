@@ -1,0 +1,154 @@
+{
+  "routingInfoVersion": 8,
+  "bootstrapping": false,
+  "nodes":
+    {
+      "1":
+        {
+          "app":
+            {
+              "nodeId": 1,
+              "hostname": "3fs",
+              "pid": 3184,
+              "serviceGroups":
+                [
+                  {
+                    "services": ["Mgmtd"],
+                    "endpoints": ["IPoIB://10.252.0.100:8000"],
+                  },
+                  {
+                    "services": ["Core"],
+                    "endpoints": ["IPoIB://10.252.0.100:9000"],
+                  },
+                ],
+              "releaseVersion":
+                {
+                  "majorVersion": 1,
+                  "minorVersion": 0,
+                  "patchVersion": 0,
+                  "commitHashShort": 976274747,
+                  "buildTimeInSeconds": 1074721076543489,
+                  "buildPipelineId": 999999,
+                },
+              "podname": "",
+            },
+          "type": "MGMTD",
+          "status": "PRIMARY_MGMTD",
+          "lastHeartbeatTs": "1970-01-01 08:00:00",
+          "tags": [],
+          "configVersion": 1,
+          "configStatus": "NORMAL",
+        },
+      "10002":
+        {
+          "app":
+            {
+              "nodeId": 10002,
+              "hostname": "3fs",
+              "pid": 3195,
+              "serviceGroups":
+                [
+                  {
+                    "services": ["StorageSerde"],
+                    "endpoints": ["IPoIB://10.252.0.100:8200"],
+                  },
+                  {
+                    "services": ["Core"],
+                    "endpoints": ["IPoIB://10.252.0.100:9200"],
+                  },
+                ],
+              "releaseVersion":
+                {
+                  "majorVersion": 1,
+                  "minorVersion": 0,
+                  "patchVersion": 0,
+                  "commitHashShort": 976274747,
+                  "buildTimeInSeconds": 1074721076543489,
+                  "buildPipelineId": 999999,
+                },
+              "podname": "",
+            },
+          "type": "STORAGE",
+          "status": "HEARTBEAT_CONNECTED",
+          "lastHeartbeatTs": "2025-03-18 15:14:25",
+          "tags": [],
+          "configVersion": 0,
+          "configStatus": "NORMAL",
+        },
+      "10001":
+        {
+          "app":
+            {
+              "nodeId": 10001,
+              "hostname": "3fs",
+              "pid": 3193,
+              "serviceGroups":
+                [
+                  {
+                    "services": ["StorageSerde"],
+                    "endpoints": ["IPoIB://10.252.0.100:8100"],
+                  },
+                  {
+                    "services": ["Core"],
+                    "endpoints": ["IPoIB://10.252.0.100:9100"],
+                  },
+                ],
+              "releaseVersion":
+                {
+                  "majorVersion": 1,
+                  "minorVersion": 0,
+                  "patchVersion": 0,
+                  "commitHashShort": 976274747,
+                  "buildTimeInSeconds": 1074721076543489,
+                  "buildPipelineId": 999999,
+                },
+              "podname": "",
+            },
+          "type": "STORAGE",
+          "status": "HEARTBEAT_CONNECTED",
+          "lastHeartbeatTs": "2025-03-18 15:14:25",
+          "tags": [],
+          "configVersion": 0,
+          "configStatus": "NORMAL",
+        },
+      "100":
+        {
+          "app":
+            {
+              "nodeId": 100,
+              "hostname": "3fs",
+              "pid": 3182,
+              "serviceGroups":
+                [
+                  {
+                    "services": ["MetaSerde"],
+                    "endpoints": ["IPoIB://10.252.0.100:8001"],
+                  },
+                  {
+                    "services": ["Core"],
+                    "endpoints": ["IPoIB://10.252.0.100:9001"],
+                  },
+                ],
+              "releaseVersion":
+                {
+                  "majorVersion": 1,
+                  "minorVersion": 0,
+                  "patchVersion": 0,
+                  "commitHashShort": 976274747,
+                  "buildTimeInSeconds": 1074721076543489,
+                  "buildPipelineId": 999999,
+                },
+              "podname": "",
+            },
+          "type": "META",
+          "status": "HEARTBEAT_CONNECTED",
+          "lastHeartbeatTs": "2025-03-18 15:14:20",
+          "tags": [],
+          "configVersion": 1,
+          "configStatus": "NORMAL",
+        },
+    },
+  "chainTables": {},
+  "chains": {},
+  "targets": {},
+}
