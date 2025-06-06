@@ -5,10 +5,15 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "(gdb) Attach",
+            "name": "(gdb) Launch",
             "type": "cppdbg",
-            "request": "attach",
+            "request": "launch",
             "program": "enter program name, for example ${workspaceFolder}/a.out",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": false,
             "MIMode": "gdb",
             "setupCommands": [
                 {
@@ -22,13 +27,22 @@
                     "ignoreFailures": true
                 }
             ]
-        }, 
+        },
         {
-            "name": "(gdb) Attach",
+            "name": "(gdb) Attach hf3fs_fuse_main",
             "type": "cppdbg",
-            "request": "attach",
-            "program": "enter program name, for example ${workspaceFolder}/a.out",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/bin/hf3fs_fuse_main",
+            "args": [
+                "--launcher_cfg",
+                "/opt/3fs/etc/hf3fs_fuse_main_launcher.toml"
+            ],
+            "miDebuggerServerAddress": "192.168.0.70:1234",
+            "miDebuggerPath": "/usr/bin/gdb",
             "MIMode": "gdb",
+            "cwd": "${workspaceFolder}/build/bin",           
+            "externalConsole": false,            
+            "stopAtEntry": true,
             "setupCommands": [
                 {
                     "description": "Enable pretty-printing for gdb",
@@ -42,6 +56,5 @@
                 }
             ]
         }
-
     ]
 }
