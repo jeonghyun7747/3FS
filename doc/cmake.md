@@ -57,7 +57,7 @@ int add(int a, int b) {
 ```
 
 #### **CMake 설정 파일 (`CMakeLists.txt`)**
-```cmake
+```sh
 cmake_minimum_required(VERSION 3.10)
 project(MyProject)
 
@@ -88,13 +88,13 @@ Sum: 8
 
 ## **CMake 추가 기능 예시**
 ### **1. 특정 C++ 버전 사용**
-```cmake
+```sh
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 ```
 
 ### **2. 라이브러리 추가 (`math`를 별도 라이브러리로 분리)**
-```cmake
+```sh
 add_library(math_lib src/math.cpp)
 target_include_directories(math_lib PUBLIC src)
 target_link_libraries(my_program PRIVATE math_lib)
@@ -211,7 +211,7 @@ cmake --version
 1. **터미널에서 최근 로그 확인**  
    `cmake --build build -j 12` 실행 중에 출력된 로그를 위쪽으로 스크롤하면서, **실제 오류 메시지**가 어디에 있는지 확인하세요.  
    오류 메시지는 보통 다음과 같은 형식입니다.
-   ```
+   ```log
    error: ‘XXX’ was not declared in this scope
    error: undefined reference to ‘YYY’
    fatal error: cannot find ‘ZZZ.h’
@@ -291,7 +291,7 @@ my_project/
 CMake를 사용하려면 `CMakeLists.txt` 파일을 작성해야 합니다.
 
 ### **예제: C++ 프로젝트 CMakeLists.txt**
-```cmake
+```sh
 cmake_minimum_required(VERSION 3.10)  # 최소 요구 CMake 버전
 project(MyProject)                    # 프로젝트 이름 설정
 
