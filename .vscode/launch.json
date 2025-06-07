@@ -5,15 +5,19 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "(gdb) Launch",
+            "name": "(gdb) launch hf3fs_fuse_main",
             "type": "cppdbg",
             "request": "launch",
-            "program": "enter program name, for example ${workspaceFolder}/a.out",
-            "args": [],
-            "stopAtEntry": false,
-            "cwd": "${fileDirname}",
+            "program": "${workspaceFolder}/build/bin/hf3fs_fuse_main",
+            "args": [
+                "--launcher_cfg",
+                "/opt/3fs/etc/hf3fs_fuse_main_launcher.toml"
+            ],
+            "stopAtEntry": true,
+            "cwd": "${workspaceFolder}/build/bin",
             "environment": [],
             "externalConsole": false,
+            "miDebuggerPath": "${workspaceFolder}/.vscode/sudo_gdb",
             "MIMode": "gdb",
             "setupCommands": [
                 {
@@ -29,7 +33,7 @@
             ]
         },
         {
-            "name": "(gdb) Attach hf3fs_fuse_main",
+            "name": "(gdbserver) Attach hf3fs_fuse_main",
             "type": "cppdbg",
             "request": "launch",
             "program": "${workspaceFolder}/build/bin/hf3fs_fuse_main",
@@ -40,8 +44,8 @@
             "miDebuggerServerAddress": "192.168.0.70:1234",
             "miDebuggerPath": "/usr/bin/gdb",
             "MIMode": "gdb",
-            "cwd": "${workspaceFolder}/build/bin",           
-            "externalConsole": false,            
+            "cwd": "${workspaceFolder}/build/bin",
+            "externalConsole": false,
             "stopAtEntry": true,
             "setupCommands": [
                 {
