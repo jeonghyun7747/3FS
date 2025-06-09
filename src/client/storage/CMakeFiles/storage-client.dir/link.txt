@@ -1,0 +1,2 @@
+/usr/bin/ar qc libstorage-client.a CMakeFiles/storage-client.dir/StorageClient.cc.o CMakeFiles/storage-client.dir/StorageClientImpl.cc.o CMakeFiles/storage-client.dir/StorageClientInMem.cc.o CMakeFiles/storage-client.dir/StorageMessenger.cc.o CMakeFiles/storage-client.dir/TargetSelection.cc.o CMakeFiles/storage-client.dir/UpdateChannelAllocator.cc.o
+/usr/bin/ranlib libstorage-client.a

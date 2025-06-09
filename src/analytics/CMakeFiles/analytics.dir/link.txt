@@ -1,0 +1,2 @@
+/usr/bin/ar qc libanalytics.a 
+/usr/bin/ranlib libanalytics.a

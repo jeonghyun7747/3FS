@@ -1,0 +1,1 @@
+cmd='./autogen.sh;&&;./configure;--prefix=/home/jhyunlee/3FS/third_party/jemalloc;--disable-cxx;--enable-prof;--disable-initial-exec-tls'

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmemory-common.a CMakeFiles/memory-common.dir/AllocatedMemoryCounter.cc.o CMakeFiles/memory-common.dir/GlobalMemoryAllocator.cc.o
+/usr/bin/ranlib libmemory-common.a

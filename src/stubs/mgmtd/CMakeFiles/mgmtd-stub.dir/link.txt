@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmgmtd-stub.a CMakeFiles/mgmtd-stub.dir/MgmtdServiceStub.cc.o
+/usr/bin/ranlib libmgmtd-stub.a

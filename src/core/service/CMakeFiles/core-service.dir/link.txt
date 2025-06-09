@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcore-service.a CMakeFiles/core-service.dir/CoreService.cc.o
+/usr/bin/ranlib libcore-service.a

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcore-user.a CMakeFiles/core-user.dir/UserStore.cc.o CMakeFiles/core-user.dir/UserStoreEx.cc.o CMakeFiles/core-user.dir/UserToken.cc.o
+/usr/bin/ranlib libcore-user.a

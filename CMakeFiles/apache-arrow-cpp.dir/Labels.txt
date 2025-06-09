@@ -1,0 +1,13 @@
+# Target labels
+ apache-arrow-cpp
+# Source files and their labels
+/home/jhyunlee/3FS/CMakeFiles/apache-arrow-cpp
+/home/jhyunlee/3FS/CMakeFiles/apache-arrow-cpp.rule
+/home/jhyunlee/3FS/CMakeFiles/apache-arrow-cpp-complete.rule
+/home/jhyunlee/3FS/src/apache-arrow-cpp-stamp/apache-arrow-cpp-build.rule
+/home/jhyunlee/3FS/src/apache-arrow-cpp-stamp/apache-arrow-cpp-configure.rule
+/home/jhyunlee/3FS/src/apache-arrow-cpp-stamp/apache-arrow-cpp-download.rule
+/home/jhyunlee/3FS/src/apache-arrow-cpp-stamp/apache-arrow-cpp-install.rule
+/home/jhyunlee/3FS/src/apache-arrow-cpp-stamp/apache-arrow-cpp-mkdir.rule
+/home/jhyunlee/3FS/src/apache-arrow-cpp-stamp/apache-arrow-cpp-patch.rule
+/home/jhyunlee/3FS/src/apache-arrow-cpp-stamp/apache-arrow-cpp-update.rule

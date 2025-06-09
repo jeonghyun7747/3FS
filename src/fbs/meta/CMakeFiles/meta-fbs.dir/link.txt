@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmeta-fbs.a CMakeFiles/meta-fbs.dir/FileOperation.cc.o CMakeFiles/meta-fbs.dir/Schema.cc.o
+/usr/bin/ranlib libmeta-fbs.a

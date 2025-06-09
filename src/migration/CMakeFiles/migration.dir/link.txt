@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmigration.a CMakeFiles/migration.dir/service/Server.cc.o CMakeFiles/migration.dir/service/Service.cc.o
+/usr/bin/ranlib libmigration.a

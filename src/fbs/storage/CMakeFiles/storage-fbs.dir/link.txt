@@ -1,0 +1,2 @@
+/usr/bin/ar qc libstorage-fbs.a CMakeFiles/storage-fbs.dir/Common.cc.o
+/usr/bin/ranlib libstorage-fbs.a

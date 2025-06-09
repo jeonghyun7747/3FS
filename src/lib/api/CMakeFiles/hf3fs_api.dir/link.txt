@@ -1,0 +1,2 @@
+/usr/bin/ar qc libhf3fs_api.a CMakeFiles/hf3fs_api.dir/UsrbIo.cc.o
+/usr/bin/ranlib libhf3fs_api.a

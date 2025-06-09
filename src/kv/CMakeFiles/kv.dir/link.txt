@@ -1,0 +1,2 @@
+/usr/bin/ar qc libkv.a CMakeFiles/kv.dir/KVStore.cc.o CMakeFiles/kv.dir/LevelDBStore.cc.o CMakeFiles/kv.dir/RocksDBStore.cc.o
+/usr/bin/ranlib libkv.a

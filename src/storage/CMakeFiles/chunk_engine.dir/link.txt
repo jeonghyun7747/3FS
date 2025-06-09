@@ -1,0 +1,2 @@
+/usr/bin/ar qc libchunk_engine.a CMakeFiles/chunk_engine.dir/__/__/target/cxxbridge/chunk_engine/src/cxx.rs.cc.o
+/usr/bin/ranlib libchunk_engine.a

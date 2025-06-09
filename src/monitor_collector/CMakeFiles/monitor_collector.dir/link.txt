@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmonitor_collector.a CMakeFiles/monitor_collector.dir/service/MonitorCollectorOperator.cc.o CMakeFiles/monitor_collector.dir/service/MonitorCollectorServer.cc.o CMakeFiles/monitor_collector.dir/service/MonitorCollectorService.cc.o
+/usr/bin/ranlib libmonitor_collector.a

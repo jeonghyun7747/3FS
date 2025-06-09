@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/jhyunlee/3FS/CMakeFiles/apache-arrow-cpp"
+		},
+		{
+			"file" : "/home/jhyunlee/3FS/CMakeFiles/apache-arrow-cpp.rule"
+		},
+		{
+			"file" : "/home/jhyunlee/3FS/CMakeFiles/apache-arrow-cpp-complete.rule"
+		},
+		{
+			"file" : "/home/jhyunlee/3FS/src/apache-arrow-cpp-stamp/apache-arrow-cpp-build.rule"
+		},
+		{
+			"file" : "/home/jhyunlee/3FS/src/apache-arrow-cpp-stamp/apache-arrow-cpp-configure.rule"
+		},
+		{
+			"file" : "/home/jhyunlee/3FS/src/apache-arrow-cpp-stamp/apache-arrow-cpp-download.rule"
+		},
+		{
+			"file" : "/home/jhyunlee/3FS/src/apache-arrow-cpp-stamp/apache-arrow-cpp-install.rule"
+		},
+		{
+			"file" : "/home/jhyunlee/3FS/src/apache-arrow-cpp-stamp/apache-arrow-cpp-mkdir.rule"
+		},
+		{
+			"file" : "/home/jhyunlee/3FS/src/apache-arrow-cpp-stamp/apache-arrow-cpp-patch.rule"
+		},
+		{
+			"file" : "/home/jhyunlee/3FS/src/apache-arrow-cpp-stamp/apache-arrow-cpp-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"apache-arrow-cpp"
+		],
+		"name" : "apache-arrow-cpp"
+	}
+}

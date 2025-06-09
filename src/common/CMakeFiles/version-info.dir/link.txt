@@ -1,0 +1,2 @@
+/usr/bin/ar qc libversion-info.a CMakeFiles/version-info.dir/utils/VersionInfo.cc.o
+/usr/bin/ranlib libversion-info.a

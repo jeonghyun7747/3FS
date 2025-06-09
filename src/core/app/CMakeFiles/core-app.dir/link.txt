@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcore-app.a CMakeFiles/core-app.dir/LauncherUtils.cc.o CMakeFiles/core-app.dir/MgmtdClientFetcher.cc.o CMakeFiles/core-app.dir/ServerAppConfig.cc.o CMakeFiles/core-app.dir/ServerEnv.cc.o CMakeFiles/core-app.dir/ServerLauncher.cc.o CMakeFiles/core-app.dir/ServerLauncherConfig.cc.o CMakeFiles/core-app.dir/ServerMgmtdClientFetcher.cc.o
+/usr/bin/ranlib libcore-app.a

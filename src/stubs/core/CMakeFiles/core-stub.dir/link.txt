@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcore-stub.a CMakeFiles/core-stub.dir/CoreServiceStub.cc.o
+/usr/bin/ranlib libcore-stub.a

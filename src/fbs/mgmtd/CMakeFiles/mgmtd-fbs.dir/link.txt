@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmgmtd-fbs.a CMakeFiles/mgmtd-fbs.dir/ChainInfo.cc.o CMakeFiles/mgmtd-fbs.dir/ClientSession.cc.o CMakeFiles/mgmtd-fbs.dir/NodeConversion.cc.o CMakeFiles/mgmtd-fbs.dir/NodeInfo.cc.o CMakeFiles/mgmtd-fbs.dir/RoutingInfo.cc.o
+/usr/bin/ranlib libmgmtd-fbs.a

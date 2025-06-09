@@ -1,0 +1,2 @@
+/usr/bin/ar qc libsimple_example.a CMakeFiles/simple_example.dir/service/Server.cc.o CMakeFiles/simple_example.dir/service/Service.cc.o
+/usr/bin/ranlib libsimple_example.a

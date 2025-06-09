@@ -1,0 +1,2 @@
+/usr/bin/ar qc libadmin-commands.a CMakeFiles/admin-commands.dir/CreateWithLayout.cc.o CMakeFiles/admin-commands.dir/Layout.cc.o CMakeFiles/admin-commands.dir/SetDirLayout.cc.o
+/usr/bin/ranlib libadmin-commands.a

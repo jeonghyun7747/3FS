@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcommon-cli.a CMakeFiles/common-cli.dir/Dispatcher.cc.o CMakeFiles/common-cli.dir/Parser.cc.o CMakeFiles/common-cli.dir/Printer.cc.o
+/usr/bin/ranlib libcommon-cli.a

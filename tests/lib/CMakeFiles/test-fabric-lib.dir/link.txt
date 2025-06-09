@@ -1,0 +1,2 @@
+/usr/bin/ar qc libtest-fabric-lib.a CMakeFiles/test-fabric-lib.dir/UnitTestFabric.cc.o
+/usr/bin/ranlib libtest-fabric-lib.a

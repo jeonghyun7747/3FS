@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcore-service-fbs.a 
+/usr/bin/ranlib libcore-service-fbs.a

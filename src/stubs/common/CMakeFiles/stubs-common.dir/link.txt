@@ -1,0 +1,2 @@
+/usr/bin/ar qc libstubs-common.a 
+/usr/bin/ranlib libstubs-common.a

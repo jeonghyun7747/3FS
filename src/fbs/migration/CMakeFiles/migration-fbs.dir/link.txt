@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmigration-fbs.a 
+/usr/bin/ranlib libmigration-fbs.a

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libleveldb_logger.a CMakeFiles/leveldb_logger.dir/LevelDBLogger.cpp.o
+/usr/bin/ranlib libleveldb_logger.a

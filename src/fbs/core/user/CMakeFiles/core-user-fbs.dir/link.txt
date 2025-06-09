@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcore-user-fbs.a CMakeFiles/core-user-fbs.dir/User.cc.o
+/usr/bin/ranlib libcore-user-fbs.a

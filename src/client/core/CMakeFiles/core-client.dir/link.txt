@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcore-client.a 
+/usr/bin/ranlib libcore-client.a

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libclient-lib-common.a CMakeFiles/client-lib-common.dir/Shm.cc.o
+/usr/bin/ranlib libclient-lib-common.a

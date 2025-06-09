@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmeta-stub.a CMakeFiles/meta-stub.dir/MetaServiceStub.cc.o
+/usr/bin/ranlib libmeta-stub.a

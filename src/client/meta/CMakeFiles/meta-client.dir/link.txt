@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmeta-client.a CMakeFiles/meta-client.dir/MetaClient.cc.o CMakeFiles/meta-client.dir/ServerSelectionStrategy.cc.o
+/usr/bin/ranlib libmeta-client.a

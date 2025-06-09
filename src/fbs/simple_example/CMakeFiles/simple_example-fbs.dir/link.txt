@@ -1,0 +1,2 @@
+/usr/bin/ar qc libsimple_example-fbs.a 
+/usr/bin/ranlib libsimple_example-fbs.a

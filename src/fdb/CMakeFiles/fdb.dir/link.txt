@@ -1,0 +1,2 @@
+/usr/bin/ar qc libfdb.a CMakeFiles/fdb.dir/FDB.cc.o CMakeFiles/fdb.dir/FDBContext.cc.o CMakeFiles/fdb.dir/FDBTransaction.cc.o CMakeFiles/fdb.dir/HybridKvEngine.cc.o
+/usr/bin/ranlib libfdb.a

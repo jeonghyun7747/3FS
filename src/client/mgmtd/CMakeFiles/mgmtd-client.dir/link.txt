@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmgmtd-client.a CMakeFiles/mgmtd-client.dir/MgmtdClient.cc.o CMakeFiles/mgmtd-client.dir/RoutingInfo.cc.o
+/usr/bin/ranlib libmgmtd-client.a

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmgmtd-test-helper.a CMakeFiles/mgmtd-test-helper.dir/MgmtdTestHelper.cpp.o
+/usr/bin/ranlib libmgmtd-test-helper.a

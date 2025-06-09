@@ -1,0 +1,2 @@
+/usr/bin/ar qc libMonitorCollectorService-fbs.a 
+/usr/bin/ranlib libMonitorCollectorService-fbs.a
