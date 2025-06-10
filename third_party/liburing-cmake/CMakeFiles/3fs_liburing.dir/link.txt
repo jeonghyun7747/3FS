@@ -1,2 +1,0 @@
-/usr/bin/ar qc lib3fs_liburing.a CMakeFiles/3fs_liburing.dir/__/liburing/src/ffi.c.o CMakeFiles/3fs_liburing.dir/__/liburing/src/queue.c.o CMakeFiles/3fs_liburing.dir/__/liburing/src/register.c.o CMakeFiles/3fs_liburing.dir/__/liburing/src/setup.c.o CMakeFiles/3fs_liburing.dir/__/liburing/src/syscall.c.o CMakeFiles/3fs_liburing.dir/__/liburing/src/version.c.o
-/usr/bin/ranlib lib3fs_liburing.a
